@@ -11,10 +11,8 @@ public class DistributeCandies {
 			candySet.add(candies[i]);
 		}
 		
-		int candyTypeCount = candySet.size();
-		
 		if(len/2 >= candySet.size() ) {
-			return candyTypeCount;
+			return candySet.size();
 		}else {
 			return len/2;
 		}
