@@ -8,11 +8,15 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		TreeNode root = new TreeNode(1);
-		root.left = new TreeNode(0);
-		root.right = new TreeNode(2);
-		TrimBst trimBst = new TrimBst();
-		trimBst.trimBST(root, 1, 2);
+		String[] cpdomains = { "900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org" };
+		SubdomainVisits subdomainVisits = new SubdomainVisits();
+		subdomainVisits.subdomainVisits(cpdomains);
+
+//		TreeNode root = new TreeNode(1);
+//		root.left = new TreeNode(0);
+//		root.right = new TreeNode(2);
+//		TrimBst trimBst = new TrimBst();
+//		trimBst.trimBST(root, 1, 2);
 
 //		int[] A = { 0,1,2,3, 4, 5 };
 //		SortedArrayToBst sortedArrayToBst = new SortedArrayToBst();
