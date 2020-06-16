@@ -8,9 +8,13 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		String[] cpdomains = { "900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org" };
-		SubdomainVisits subdomainVisits = new SubdomainVisits();
-		subdomainVisits.subdomainVisits(cpdomains);
+		int[] A = { 2, 1, 2, 5, 3, 2 };
+		NRepeatedElement nRepeatedElement = new NRepeatedElement();
+		nRepeatedElement.repeatedNTimes(A);
+
+//		String[] cpdomains = { "900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org" };
+//		SubdomainVisits subdomainVisits = new SubdomainVisits();
+//		subdomainVisits.subdomainVisits(cpdomains);
 
 //		TreeNode root = new TreeNode(1);
 //		root.left = new TreeNode(0);
