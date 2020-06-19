@@ -7,18 +7,23 @@ import tree.TreeNode;
 public class Main {
 
 	public static void main(String[] args) {
+
+		int[] A = { 2, 0, 2, 1, 1, 0, 0, 1 };
+		SortColors sortColors = new SortColors();
+		sortColors.sortColors(A);
+
 //		String text = "lnlqhmaohv ypkk";
 
 //		String text = "ypkk lnlqhmaohv lnlqhmaohv lnlqhmaohv ypkk ypkk ypkk ypkk ypkk ypkk lnlqhmaohv lnlqhmaohv lnlqhmaohv lnlqhmaohv ypkk ypkk ypkk lnlqhmaohv lnlqhmaohv ypkk";
 //		String first = "lnlqhmaohv";
 //		String second = "ypkk";
-		
-		String text = "we will we will rock you";
-		String first = "we";
-		String second = "will";
 
-		OccurrencesAfterBigram occurrencesAfterBigram = new OccurrencesAfterBigram();
-		occurrencesAfterBigram.findOcurrences(text, first, second);
+//		String text = "we will we will rock you";
+//		String first = "we";
+//		String second = "will";
+//
+//		OccurrencesAfterBigram occurrencesAfterBigram = new OccurrencesAfterBigram();
+//		occurrencesAfterBigram.findOcurrences(text, first, second);
 
 //		TreeNode root = new TreeNode(1);
 //		root.left = new TreeNode(2);

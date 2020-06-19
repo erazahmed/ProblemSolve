@@ -11,7 +11,7 @@ public class OccurrencesAfterBigram {
 
 		while (text.contains(subString + " ")) {
 			int firstIndex;
-
+			System.out.println(text);
 
 			if (text.startsWith(subString + " ")) {
 				firstIndex = text.indexOf(subString);
