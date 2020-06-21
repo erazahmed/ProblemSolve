@@ -8,9 +8,14 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int[] A = { 2, 0, 2, 1, 1, 0, 0, 1 };
-		SortColors sortColors = new SortColors();
-		sortColors.sortColors(A);
+		String[] words = { "apple", "app" };
+		String order = "abcdefghijklmnopqrstuvwxyz";
+		VerifyingAlienDictionary verifyingAlienDictionary = new VerifyingAlienDictionary();
+		System.out.println(verifyingAlienDictionary.isAlienSorted(words, order));
+
+//		int[] A = { 2, 0, 2, 1, 1, 0, 0, 1 };
+//		SortColors sortColors = new SortColors();
+//		sortColors.sortColors(A);
 
 //		String text = "lnlqhmaohv ypkk";
 
