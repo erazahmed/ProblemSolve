@@ -8,10 +8,15 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		String[] words = { "apple", "app" };
-		String order = "abcdefghijklmnopqrstuvwxyz";
-		VerifyingAlienDictionary verifyingAlienDictionary = new VerifyingAlienDictionary();
-		System.out.println(verifyingAlienDictionary.isAlienSorted(words, order));
+		int[] houses = { 1, 2, 3 };
+		int[] heaters = { 3 };
+		Heaters heaters2 = new Heaters();
+		System.out.println(heaters2.findRadius(houses, heaters));
+
+//		String[] words = { "apple", "app" };
+//		String order = "abcdefghijklmnopqrstuvwxyz";
+//		VerifyingAlienDictionary verifyingAlienDictionary = new VerifyingAlienDictionary();
+//		System.out.println(verifyingAlienDictionary.isAlienSorted(words, order));
 
 //		int[] A = { 2, 0, 2, 1, 1, 0, 0, 1 };
 //		SortColors sortColors = new SortColors();
