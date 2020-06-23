@@ -8,8 +8,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int[] houses = { 1, 2, 3 };
-		int[] heaters = { 3 };
+		int[] houses = { 1, 2, 3, 4 };
+		int[] heaters = { 1 };
 		Heaters heaters2 = new Heaters();
 		System.out.println(heaters2.findRadius(houses, heaters));
 
