@@ -8,14 +8,18 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		TreeNode root = new TreeNode(1);
-		root.left = new TreeNode(2);
-		root.right = new TreeNode(3);
-		root.left.left = new TreeNode(4);
-		root.left.right = new TreeNode(5);
+		int[] nums = { 1, 3, 5, 7 };
+		int target = 6;
+		System.out.println(new SearchInsertPosition().searchInsert(nums, target));
 
-		DiameterOfBinaryTree diameterOfBinaryTree = new DiameterOfBinaryTree();
-		System.out.println(diameterOfBinaryTree.diameterOfBinaryTree(root));
+//		TreeNode root = new TreeNode(1);
+//		root.left = new TreeNode(2);
+//		root.right = new TreeNode(3);
+//		root.left.left = new TreeNode(4);
+//		root.left.right = new TreeNode(5);
+//
+//		DiameterOfBinaryTree diameterOfBinaryTree = new DiameterOfBinaryTree();
+//		System.out.println(diameterOfBinaryTree.diameterOfBinaryTree(root));
 
 //		int[] houses = { 1, 2, 3, 4 };
 //		int[] heaters = { 1 };

@@ -29,7 +29,7 @@ public class DiameterOfBinaryTree {
 		int left = depth(node.left, diameter);
 		int right = depth(node.right, diameter);
 
-		diameter.diameter = Math.max(diameter.diameter, 1 + left + right);
+		diameter.diameter = Math.max(diameter.diameter, left + right);
 		return 1 + Math.max(left, right);
 
 	}
