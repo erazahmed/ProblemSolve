@@ -31,7 +31,7 @@ public class SearchInsertPosition {
 				return binarySearch(nums, target, midIndex + 1, endIndex);
 
 			} else {
-				return midIndex;
+				return binarySearch(nums, target, startIndex, midIndex - 1);
 			}
 		} else if (startIndex > endIndex) {
 			return startIndex;
