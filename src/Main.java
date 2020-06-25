@@ -8,9 +8,13 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int[] nums = { 1, 3, 5, 7, 9, 9, 9, 9, 9, 11, 13, 15, 15, 17, 17, 17, 17 };
-		int target = 9;
-		System.out.println(new SearchInsertPosition().searchInsert(nums, target));
+//		int[] nums = { 3, 1, 2 };
+		int[] nums = { -1, -2, -3, -4, -5 };
+		System.out.println(new CircularArrayLoop().circularArrayLoop(nums));
+
+//		int[] nums = { 1, 3, 5, 7, 9, 9, 9, 9, 9, 11, 13, 15, 15, 17, 17, 17, 17 };
+//		int target = 9;
+//		System.out.println(new SearchInsertPosition().searchInsert(nums, target));
 
 //		TreeNode root = new TreeNode(1);
 //		root.left = new TreeNode(2);

@@ -11,7 +11,6 @@ public class SearchInsertPosition {
 			return nums.length;
 		}
 
-		System.out.println();
 		return binarySearch(nums, target, 0, nums.length - 1);
 
 	}
@@ -21,7 +20,6 @@ public class SearchInsertPosition {
 		if (startIndex < endIndex) {
 
 			int midIndex = (startIndex + endIndex) / 2;
-			System.out.println("midIndex: " + midIndex);
 			if (target < nums[midIndex]) {
 
 				return binarySearch(nums, target, startIndex, midIndex - 1);
