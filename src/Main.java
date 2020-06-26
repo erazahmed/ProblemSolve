@@ -11,6 +11,8 @@ public class Main {
 		int[] nums = { 4, 5, 6, 7, 0, 1, 2 };
 		System.out.println(new FindMinimumInRotatedSortedArray().findMin(nums));
 
+		
+		
 //		int[] nums = { 3, 1, 2 };
 //		int[] nums = { -1, -2, -3, -4, -5 };
 //		System.out.println(new CircularArrayLoop().circularArrayLoop(nums));
