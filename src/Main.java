@@ -8,11 +8,13 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int[] nums = { 4, 5, 6, 7, 0, 1, 2 };
-		System.out.println(new FindMinimumInRotatedSortedArray().findMin(nums));
+		String A = "s z z z s";
+		String B = "s z ejt";
+		new UncommonWordsfromTwoSentences().uncommonFromSentences(A, B);
 
-		
-		
+//		int[] nums = { 4, 5, 6, 7, 0, 1, 2 };
+//		System.out.println(new FindMinimumInRotatedSortedArray().findMin(nums));
+
 //		int[] nums = { 3, 1, 2 };
 //		int[] nums = { -1, -2, -3, -4, -5 };
 //		System.out.println(new CircularArrayLoop().circularArrayLoop(nums));
