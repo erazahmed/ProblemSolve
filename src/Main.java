@@ -8,9 +8,14 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		String A = "s z z z s";
-		String B = "s z ejt";
-		new UncommonWordsfromTwoSentences().uncommonFromSentences(A, B);
+		TreeNode root = new TreeNode(5);
+		root.left = new TreeNode(2);
+		root.right = new TreeNode(13);
+		new ConvertBstToGreaterTree().convertBST(root);
+
+//		String A = "s z z z s";
+//		String B = "s z ejt";
+//		new UncommonWordsfromTwoSentences().uncommonFromSentences(A, B);
 
 //		int[] nums = { 4, 5, 6, 7, 0, 1, 2 };
 //		System.out.println(new FindMinimumInRotatedSortedArray().findMin(nums));
