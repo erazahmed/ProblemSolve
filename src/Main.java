@@ -7,10 +7,12 @@ import tree.TreeNode;
 public class Main {
 
 	public static void main(String[] args) {
-		String licensePlate = "1s3 456";
-		String[] words = { "looks", "pest", "stew", "show" };
 
-		new ShortestCompletingWord().shortestCompletingWord(licensePlate, words);
+		new MoveZeroes().moveZeroes(new int[] { 0 });
+//		String licensePlate = "1s3 456";
+//		String[] words = { "looks", "pest", "stew", "show" };
+//
+//		new ShortestCompletingWord().shortestCompletingWord(licensePlate, words);
 
 //		TreeNode root = new TreeNode(5);
 //		root.left = new TreeNode(2);

@@ -10,7 +10,7 @@ public class ShortestCompletingWord {
 		HashMap<Character, Integer> lpMap = new HashMap<Character, Integer>();
 		TreeMap<Integer, String> resultMap = new TreeMap<Integer, String>();
 		loadLicensePlateMap(licensePlate, lpMap);
-		// System.out.println(lpMap.toString());
+		//System.out.println(lpMap.toString());
 
 		for (int i = 0; i < words.length; i++) {
 
@@ -48,13 +48,13 @@ public class ShortestCompletingWord {
 
 				}
 
-				// System.out.println(words[i] + ": " + wordMap.toString());
+				//System.out.println(words[i] + ":  " + wordMap.toString());
 
 			}
 
 		}
 
-		// System.out.println(resultMap.toString());
+		//System.out.println(resultMap.toString());
 		return resultMap.get(resultMap.firstKey());
 	}
 
