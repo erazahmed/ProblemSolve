@@ -7,11 +7,15 @@ import tree.TreeNode;
 public class Main {
 
 	public static void main(String[] args) {
+		String licensePlate = "1s3 456";
+		String[] words = { "looks", "pest", "stew", "show" };
 
-		TreeNode root = new TreeNode(5);
-		root.left = new TreeNode(2);
-		root.right = new TreeNode(13);
-		new ConvertBstToGreaterTree().convertBST(root);
+		new ShortestCompletingWord().shortestCompletingWord(licensePlate, words);
+
+//		TreeNode root = new TreeNode(5);
+//		root.left = new TreeNode(2);
+//		root.right = new TreeNode(13);
+//		new ConvertBstToGreaterTree().convertBST(root);
 
 //		String A = "s z z z s";
 //		String B = "s z ejt";
