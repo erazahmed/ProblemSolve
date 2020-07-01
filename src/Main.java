@@ -8,7 +8,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		new MoveZeroes().moveZeroes(new int[] {1,0});
+		new ImplementStrStr().strStr("mississippissipi", "issipi");
+
+//		new MoveZeroes().moveZeroes(new int[] {1,0});
+
 //		String licensePlate = "1s3 456";
 //		String[] words = { "looks", "pest", "stew", "show" };
 //
