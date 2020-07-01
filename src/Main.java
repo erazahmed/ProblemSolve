@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		new ImplementStrStr().strStr("mississippissipi", "issipi");
+		System.out.println(new ImplementStrStr().strStr("hello", "ll"));
 
 //		new MoveZeroes().moveZeroes(new int[] {1,0});
 
