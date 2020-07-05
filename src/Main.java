@@ -8,6 +8,11 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		int[] nums1 = { 4, 9, 5 };
+		int[] nums2 = { 9, 4, 9, 8, 4 };
+
+		new IntersectionOfTwoArraysII().intersect(nums1, nums2);
+
 //		TreeNode root = new TreeNode(3);
 //		root.left = new TreeNode(2);
 //		root.right = new TreeNode(3);
