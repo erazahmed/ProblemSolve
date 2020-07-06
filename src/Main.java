@@ -2,16 +2,17 @@
 import java.util.Arrays;
 import java.util.HashSet;
 
+import linkedlist.ListNode;
 import tree.TreeNode;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-		int[] nums1 = { 4, 9, 5 };
-		int[] nums2 = { 9, 4, 9, 8, 4 };
-
-		new IntersectionOfTwoArraysII().intersect(nums1, nums2);
+//		int[] nums1 = { 4, 9, 5 };
+//		int[] nums2 = { 9, 4, 9, 8, 4 };
+//
+//		new IntersectionOfTwoArraysII().intersect(nums1, nums2);
 
 //		TreeNode root = new TreeNode(3);
 //		root.left = new TreeNode(2);
@@ -411,22 +412,22 @@ public class Main {
 
 	/* Leet code problem 206 */
 
-	public static class ListNode {
-		int val;
-		ListNode next;
-
-		ListNode() {
-		}
-
-		ListNode(int val) {
-			this.val = val;
-		}
-
-		ListNode(int val, ListNode next) {
-			this.val = val;
-			this.next = next;
-		}
-	}
+//	public static class ListNode {
+//		int val;
+//		ListNode next;
+//
+//		ListNode() {
+//		}
+//
+//		ListNode(int val) {
+//			this.val = val;
+//		}
+//
+//		ListNode(int val, ListNode next) {
+//			this.val = val;
+//			this.next = next;
+//		}
+//	}
 
 	public static void reverseList(ListNode head) {
 
