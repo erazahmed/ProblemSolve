@@ -4,26 +4,22 @@ public class LinkedListCycle {
 
 	public boolean hasCycle(ListNode head) {
 
-		if (head == null || head.next == null || head.next.next == null) {
+		if (head == null) {
 			return false;
 		}
 
-		head = head.next;
-		ListNode secondNode = head.next.next;
+		ListNode secondNode = head;
 
-		while (head.val != secondNode.val) {
-			if (head.next != null) {
-				head = head.next;
-			} else {
-				return false;
-			}
-			if (secondNode.next != null && secondNode.next.next != null) {
-				secondNode = secondNode.next.next;
-			} else {
-				return false;
+		while (secondNode.next != null && secondNode.next.next != null) {
+
+			head = head.next;
+			secondNode = secondNode.next.next;
+			if (head == secondNode) {
+				return true;
 			}
 		}
-		return true;
+
+		return false;
 	}
 
 }
