@@ -9,6 +9,13 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		int[][] x = new int[2][2];
+		x[0][0] = 1;
+		x[0][1] = 1;
+		x[1][0] = 1;
+		x[1][1] = 1;
+		System.out.println(new IslandPerimeter().islandPerimeter(x));
+
 //		int[] nums1 = { 4, 9, 5 };
 //		int[] nums2 = { 9, 4, 9, 8, 4 };
 //
