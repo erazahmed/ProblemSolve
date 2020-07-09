@@ -9,12 +9,35 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int[][] x = new int[2][2];
-		x[0][0] = 1;
-		x[0][1] = 1;
-		x[1][0] = 1;
-		x[1][1] = 1;
-		System.out.println(new IslandPerimeter().islandPerimeter(x));
+		int[][] A = new int[1][2];
+		A[0][0] = 5;
+		A[0][1] = 10;
+
+		int[][] B = new int[1][2];
+		B[0][0] = 5;
+		B[0][1] = 6;
+
+//		int[][] A = new int[4][2];
+//		A[0][0] = 0;
+//		A[0][1] = 2;
+//		A[1][0] = 5;
+//		A[1][1] = 10;
+//		A[2][0] = 13;
+//		A[2][1] = 23;
+//		A[3][0] = 24;
+//		A[3][1] = 25;
+//
+//		int[][] B = new int[4][2];
+//		B[0][0] = 1;
+//		B[0][1] = 5;
+//		B[1][0] = 8;
+//		B[1][1] = 12;
+//		B[2][0] = 15;
+//		B[2][1] = 24;
+//		B[3][0] = 25;
+//		B[3][1] = 26;
+
+		new IntervalListIntersections().intervalIntersection(A, B);
 
 //		int[] nums1 = { 4, 9, 5 };
 //		int[] nums2 = { 9, 4, 9, 8, 4 };
