@@ -9,13 +9,21 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int[][] A = new int[1][2];
-		A[0][0] = 5;
-		A[0][1] = 10;
+		TreeNode root = new TreeNode(1);
+		root.left = new TreeNode(2);
+		root.right = new TreeNode(3);
+		root.left.left = new TreeNode(4);
+		root.left.right = new TreeNode(5);
 
-		int[][] B = new int[1][2];
-		B[0][0] = 5;
-		B[0][1] = 6;
+		System.out.println(new CountCompleteTreeNodes().countNodes(root));
+
+//		int[][] A = new int[1][2];
+//		A[0][0] = 5;
+//		A[0][1] = 10;
+//
+//		int[][] B = new int[1][2];
+//		B[0][0] = 5;
+//		B[0][1] = 6;
 
 //		int[][] A = new int[4][2];
 //		A[0][0] = 0;
@@ -37,7 +45,7 @@ public class Main {
 //		B[3][0] = 25;
 //		B[3][1] = 26;
 
-		new IntervalListIntersections().intervalIntersection(A, B);
+//		new IntervalListIntersections().intervalIntersection(A, B);
 
 //		int[] nums1 = { 4, 9, 5 };
 //		int[] nums2 = { 9, 4, 9, 8, 4 };
