@@ -9,9 +9,12 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		String longUrl = "https://leetcode.com/problems/design-tinyurl";
+		System.out.println(new EncodeAndDecodeTinyUrl().encode(longUrl));
+
 //		String ip = "2001:0db8:85a3:0:0:8A2E:0370:";
-		String ip = "12..33.4";
-		System.out.println(new ValidateIpAddress().validIPAddress(ip));
+//		String ip = "12..33.4";
+//		System.out.println(new ValidateIpAddress().validIPAddress(ip));
 
 //		int[] prices = { 7,6,4,3,1 };
 //		System.out.println(new BestTimeToBuyAndSellStock().maxProfit(prices));
