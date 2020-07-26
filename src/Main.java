@@ -9,8 +9,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int[] nums = { 1, 1, 1 };
-		System.out.println(new SubarrayProductLessThanK().numSubarrayProductLessThanK(nums, 1));
+		int[] nums = { -1, -2, -3, -4, -5 };
+		new TwoSum().twoSum(nums, -8);
+
+//		System.out.println(new SubarrayProductLessThanK().numSubarrayProductLessThanK(nums, 1));
 
 //		String longUrl = "https://leetcode.com/problems/design-tinyurl";
 //		System.out.println(new EncodeAndDecodeTinyUrl().encode(longUrl));
