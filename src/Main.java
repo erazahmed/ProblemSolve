@@ -9,24 +9,34 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		ListNode node13 = new ListNode(15);
-		ListNode node5 = new ListNode(10, node13);
-		ListNode node4 = new ListNode(9, node5);
-		ListNode node3 = new ListNode(6, node4);
-		ListNode node2 = new ListNode(5, node3);
-		ListNode node1 = new ListNode(2, node2);
-		ListNode head1 = new ListNode(1, node1);
+		int[][] image = new int[2][3];
+		image[0][0] = 0;
+		image[0][1] = 0;
+		image[0][2] = 0;
+		image[1][0] = 0;
+		image[1][1] = 1;
+		image[1][2] = 1;
 
-		ListNode node12 = new ListNode(14);
-		ListNode node11 = new ListNode(13, node12);
-		ListNode node10 = new ListNode(12, node11);
-		ListNode node9 = new ListNode(11, node10);
-		ListNode node8 = new ListNode(8, node9);
-		ListNode node7 = new ListNode(7, node8);
-		ListNode node6 = new ListNode(4, node7);
-		ListNode head2 = new ListNode(3, node6);
+		new FloodFill().floodFill(image, 1, 1, 1);
 
-		new MergeTwoSortedLists().mergeTwoLists(head1, head2);
+//		ListNode node13 = new ListNode(15);
+//		ListNode node5 = new ListNode(10, node13);
+//		ListNode node4 = new ListNode(9, node5);
+//		ListNode node3 = new ListNode(6, node4);
+//		ListNode node2 = new ListNode(5, node3);
+//		ListNode node1 = new ListNode(2, node2);
+//		ListNode head1 = new ListNode(1, node1);
+//
+//		ListNode node12 = new ListNode(14);
+//		ListNode node11 = new ListNode(13, node12);
+//		ListNode node10 = new ListNode(12, node11);
+//		ListNode node9 = new ListNode(11, node10);
+//		ListNode node8 = new ListNode(8, node9);
+//		ListNode node7 = new ListNode(7, node8);
+//		ListNode node6 = new ListNode(4, node7);
+//		ListNode head2 = new ListNode(3, node6);
+//
+//		new MergeTwoSortedLists().mergeTwoLists(head1, head2);
 
 //		int[] nums = { -1, -2, -3, -4, -5 };
 //		new TwoSum().twoSum(nums, -8);
