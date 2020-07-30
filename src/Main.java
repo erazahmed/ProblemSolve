@@ -9,15 +9,17 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int[][] image = new int[2][3];
-		image[0][0] = 0;
-		image[0][1] = 0;
-		image[0][2] = 0;
-		image[1][0] = 0;
-		image[1][1] = 1;
-		image[1][2] = 1;
+		System.out.println(new RemoveKDigits().removeKdigits("10200", 1));
 
-		new FloodFill().floodFill(image, 1, 1, 1);
+//		int[][] image = new int[2][3];
+//		image[0][0] = 0;
+//		image[0][1] = 0;
+//		image[0][2] = 0;
+//		image[1][0] = 0;
+//		image[1][1] = 1;
+//		image[1][2] = 1;
+//
+//		new FloodFill().floodFill(image, 1, 1, 1);
 
 //		ListNode node13 = new ListNode(15);
 //		ListNode node5 = new ListNode(10, node13);
