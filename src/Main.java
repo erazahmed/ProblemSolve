@@ -9,7 +9,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		System.out.println(new RemoveKDigits().removeKdigits("10200", 1));
+		String[] banned = { "a" };
+		System.out.println(new MostCommonWord().mostCommonWord("a, a, a, a, b,b,b,c, c", banned));
+
+//		System.out.println(new RemoveKDigits().removeKdigits("10200", 1));
 
 //		int[][] image = new int[2][3];
 //		image[0][0] = 0;
