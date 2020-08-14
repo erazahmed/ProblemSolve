@@ -9,8 +9,14 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		String[] banned = { "a" };
-		System.out.println(new MostCommonWord().mostCommonWord("a, a, a, a, b,b,b,c, c", banned));
+//		int[] nums = {  6, 7, 0 };
+		int[] nums = { 1, 2, 4, 5, 6, 7, 0 };
+//		int[] nums = { 4, 5, 6, 7, 0, 1, 2 };
+//		int[] nums = { 0, 1, 2, 4, 5, 6, 7 };
+		System.out.println(new SearchInRotatedSortedArray().search(nums, 2));
+
+//		String[] banned = { "a" };
+//		System.out.println(new MostCommonWord().mostCommonWord("a, a, a, a, b,b,b,c, c", banned));
 
 //		System.out.println(new RemoveKDigits().removeKdigits("10200", 1));
 
